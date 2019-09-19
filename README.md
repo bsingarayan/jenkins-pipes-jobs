@@ -28,7 +28,7 @@ for (repo in repos)
     // build master as well as feature branches
     branchSources {
       git {
-        remote("https://github.com/tknerr/${repo}.git")
+        remote("https://github.com/bsingarayan/${repo}.git")
         includes("master feature/*")
       }
     }
